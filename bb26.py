@@ -2,7 +2,7 @@ def BB26_to_int(s: str) -> int:
 
     result = 0
    
-    for c in s:
+    for c in s.lower():
         result *= 26
         result += 1 + ord(c) - ord('a')
     
