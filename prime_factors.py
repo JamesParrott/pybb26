@@ -3,7 +3,7 @@ import collections
 from bb26 import int_to_BB26
 
 
-primes = {} # Must start empty.
+primes = {} # Must start empty or with contain all primes up to its highest (as keys)
 
 
 def prime_factors(n):
