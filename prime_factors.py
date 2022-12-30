@@ -1,6 +1,6 @@
 
 import collections
-from bb26 import BB26_to_int, int_to_BB26
+from bb26 import int_to_BB26
 
 
 primes = {} # Must start empty.
